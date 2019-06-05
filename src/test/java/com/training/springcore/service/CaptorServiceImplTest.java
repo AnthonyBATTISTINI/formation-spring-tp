@@ -8,7 +8,7 @@ import java.util.Set;
 
 
 public class CaptorServiceImplTest {
-    private CaptorServiceImpl captorService = new CaptorServiceImpl();
+    private CaptorService captorService = new CaptorServiceImpl();
 
     @Test
     public void findBySiteShouldReturnNullWhenIdIsNull() {
